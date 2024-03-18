@@ -20,7 +20,7 @@ function App() {
           <Route path="/product/:id" element={<SingleProduct />} />
         </Routes>
         <NewsLetter />
-        
+
         <Footer />
       </AppContext>
     </BrowserRouter>
